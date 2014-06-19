@@ -40,5 +40,5 @@ cacheSolve <- function (list,...){            ## creates function with 'list' ar
   data <- list$get()                          ## assigns the 'x' global variable to the 'data' variable
   inverse <- solve(data)                      ## calculates inverse matrix and assigns to the 'inverse' variable
   list$setsolve(inverse)                      ## assigns the inverse matrix to the 'i' global variable 
-  inverse                                     ## printis the value of 'inverse' variable
+  inverse                                     ## prints the value of 'inverse' variable
 }
